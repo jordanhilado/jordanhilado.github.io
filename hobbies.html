@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="circlecrop.png">
+        <title>Jordan Hilado - Hobbies</title>
+    </head>
+    <body>
+      <!--source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+        <header class="hob">
+            <h1><a class="title" id="title" href="index.html">Jordan Hilado</a></h1>
+            <p class="toptext"><a class="toplink" href="index.html">about me</a> <a class="toplink" href="experience.html">experience</a> <a class="toplink" href="contact.html">contact</a></p>
+            <h2 class="hobtitle">Hobbies</h2>
+        </header>
+        <h3 class="oof">Hikes</h3>
+        <p class="maintext">These are the hikes that I've been to recently!</p>
+        <h3 class="oof">Switzer Falls</h3>
+        <img class="hikes" src="IMG_8136.jpeg" width="300" height="400" alt="Switzer Falls">
+        <p class="maintext">Switzer Falls, located within the Angeles National Forest some ways north of Los Angeles is a moderate 3 mile hike. Personally I enjoyed this hike because of the great scenery involved in the process of reaching the falls, as within the second half of the hike, navigation over the peak of a mountain is required, at which the scenic view of this section does not disappoint.</p>
+        <h3 class="oof">Black Star Canyon</h3>
+        <img class="hikes" src="IMG_7293.jpeg" width="425" height="225" alt="Black Star Canyon">
+        <p class="maintext">Black Star Canyon was one of the hardest hikes I've been to. It is a full six mile hike round trip, and it consists of many somewhat difficult pathways to navigate through in order to reach the falls. With that being said, Black Star Canyon doesn't disappoint if you're there at the perfect time of the year. During the summer however, the falls doesn't fully output it's full potential, due to the fact that there isn't much rainwater for the falls to output enough water to make it deep enough for swimming.</p> <br>
+    </body>
+</html>
