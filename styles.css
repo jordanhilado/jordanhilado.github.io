@@ -72,6 +72,12 @@ body
 {
     color: #bebebe;
 }
+#hobbies-index
+{
+    color: #bebebe;
+    position: relative;
+    margin: 500px;
+}
 .maintext
 {
     color: white;
