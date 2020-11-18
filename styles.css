@@ -82,13 +82,18 @@ body
 {
     color: white;
     font-family: SF-Pro-Light;
-    text-indent: 50px;
     padding: 1em;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     max-width: 700px;
     margin: inherit;
+}
+.email {
+    color: darkgrey;
+}
+.email:hover {
+    color: lightpink;
 }
 .info
 {
